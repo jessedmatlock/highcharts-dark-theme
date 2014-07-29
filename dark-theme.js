@@ -1,4 +1,3 @@
-// Load the fonts
 Highcharts.createElement('link', {
     href: 'http://fonts.googleapis.com/css?family=Unica+One',
     rel: 'stylesheet',
@@ -169,7 +168,7 @@ Highcharts.theme = {
                     }
                 },
                 select: {
-                    fill: '#000003',
+                    fill: '#000000',
                     stroke: '#000000',
                     style: {
                         color: 'white'
@@ -183,7 +182,7 @@ Highcharts.theme = {
             color: 'silver'
         },
         labelStyle: {
-            color: 'silver'
+            color: '#fff'
         }
     },
 
@@ -191,9 +190,9 @@ Highcharts.theme = {
         outlineColor: '#000',
         outlineWidth: 1,
         //maskFill: 'rgba(76, 249, 49, 0.25)',
-        maskFill: 'rgba(255, 238, 0, 0.25)',
+        maskFill: 'rgba(255, 238, 0, 0.65)',
         handles: {
-            backgroundColor: '#fff',
+            backgroundColor: '#F0C600',
             borderColor: '#000'
         },
         series: {
@@ -201,12 +200,17 @@ Highcharts.theme = {
             lineColor: '#3e3e40'
         },
         xAxis: {
-            gridLineColor: '#333'
+            gridLineColor: '#3e3e40',
+            labels: {
+                style: {
+                    color: '#fff'
+                },
+            }
         },
     },
     scrollbar: {
-        barBackgroundColor: '#FFEE00',
-        barBorderColor: '#FFEE00',
+        barBackgroundColor: '#9D941E',
+        barBorderColor: '#9D941E',
         //barBorderWidth: 0,
         buttonArrowColor: '#fff',
         buttonBackgroundColor: '#606063',
