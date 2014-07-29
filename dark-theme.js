@@ -14,7 +14,7 @@ Highcharts.theme = {
             linearGradient: {
                 x1: 0,
                 y1: 0,
-                x2: 1,
+                x2: 0,
                 y2: 1
             },
             stops: [
@@ -196,8 +196,8 @@ Highcharts.theme = {
             borderColor: '#000'
         },
         series: {
-            color: '#333',
-            lineColor: '#333'
+            color: '#3e3e40',
+            lineColor: '#3e3e40'
         },
         xAxis: {
             gridLineColor: '#333'
