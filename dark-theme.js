@@ -216,7 +216,7 @@ Highcharts.theme = {
         buttonBackgroundColor: '#606063',
         buttonBorderColor: '#222',
         buttonBorderWidth: 1,
-        rifleColor: '#FFF',
+        rifleColor: '#000',
         trackBackgroundColor: '#606063',
         trackBorderWidth: 1,
         trackBorderColor: '#222222',
