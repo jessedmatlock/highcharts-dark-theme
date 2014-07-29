@@ -196,8 +196,8 @@ Highcharts.theme = {
             borderColor: '#000'
         },
         series: {
-            color: '#fff',
-            lineColor: '#fff'
+            color: '#333',
+            lineColor: '#333'
         },
         xAxis: {
             gridLineColor: '#333'
