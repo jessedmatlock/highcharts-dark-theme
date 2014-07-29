@@ -191,7 +191,7 @@ Highcharts.theme = {
         outlineColor: '#000',
         outlineWidth: 1,
         //maskFill: 'rgba(76, 249, 49, 0.25)',
-        maskFill: 'rgba(240, 198, 0, 0.25)',
+        maskFill: 'rgba(255, 238, 0, 0.25)',
         handles: {
             backgroundColor: '#fff',
             borderColor: '#000'
@@ -205,8 +205,8 @@ Highcharts.theme = {
         },
     },
     scrollbar: {
-        barBackgroundColor: '#3C6736',
-        barBorderColor: '#3C6736',
+        barBackgroundColor: '#FFEE00',
+        barBorderColor: '#FFEE00',
         //barBorderWidth: 0,
         buttonArrowColor: '#fff',
         buttonBackgroundColor: '#606063',
