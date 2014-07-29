@@ -190,7 +190,8 @@ Highcharts.theme = {
     navigator: {
         outlineColor: '#000',
         outlineWidth: 1,
-        maskFill: 'rgba(76, 249, 49, 0.25)',
+        //maskFill: 'rgba(76, 249, 49, 0.25)',
+        maskFill: 'rgba(240, 198, 0, 0.25)',
         handles: {
             backgroundColor: '#fff',
             borderColor: '#000'
